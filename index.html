@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div id="messages" class="messages"></div>
+    <div id="typing" class="typing hidden"><span></span><span></span><span></span></div>
+  </div>
+  <div class="input-area">
+    <div class="quick-actions">
+      <button data-msg="Hello">Hello</button>
+      <button data-msg="Help">Help</button>
+    </div>
+    <div class="input-row">
+      <input id="message-input" type="text" placeholder="Type a message...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
